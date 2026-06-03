@@ -87,7 +87,7 @@ try:
         else:
             print("[Sistem] Menunggu kiriman data lengkap pertama dari ESP32...")
             
-        time.sleep(30)
+        time.sleep(10)
 
 except KeyboardInterrupt:
     print("\nSistem dihentikan.")
